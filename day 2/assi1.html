@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Donation Camp Registration</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url("depositphotos_347664268-stock-photo-close-red-blood-bag-blood.webp");;
+        }
+        form {
+            text-align: center;
+            border: 1px solid whitesmoke;
+            border-radius: 10px;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Blood Donation Camp Registration Form</h1>
+    <form action="" method="post" style="background-color: aliceblue;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="bloodGroup">Blood Group:</label>
+        <input type="text" id="bloodGroup" name="bloodGroup" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</center>
+</body>
+</html>

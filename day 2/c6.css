@@ -1,0 +1,7 @@
+.one{
+    border: black 20px solid;
+    background-image: url("Black Lamborghini.jpg");
+    height: 250px;
+    width: 250px;
+    border-radius: 500%;
+}

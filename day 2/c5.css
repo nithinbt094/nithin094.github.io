@@ -1,0 +1,9 @@
+.hello{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 500%;
+    border: 20px solid black;
+    border: 20px hidden yellow;
+    border: 20px double red;
+}

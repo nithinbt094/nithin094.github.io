@@ -1,0 +1,13 @@
+h1{
+    text-shadow: 10px 10px 10px rebeccapurple;
+}
+img{
+    width: 100%;
+    height: 100%;
+
+}
+a:hover{
+    color: red;
+    text-decoration: aqua;
+    
+}
